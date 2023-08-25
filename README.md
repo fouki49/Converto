@@ -32,26 +32,26 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <h3>Convertisseur de mesure pour des dimensions, le poids, la température et la monnaie</h3>
 
 
-![image](https://github.com/lemben01/converto/assets/70725029/273e7086-6b28-486c-af71-2d980e2dad8e)
+![image](https://github.com/fouki49/Converto/assets/67130095/7416146f-d3f8-4467-b7bb-7b5b4f50061a)
 
 Le premier onglet sert au convertissement d'une mesure selon une entré et un sortie. Il est aussi possible d'avoir un valeur selon la dimension désiré donc 1d, 2d et 3d pour avoir par exemple l'air ou le volume d'une dimensions a une autre selon la longeur désirer.
 
-![image](https://github.com/lemben01/converto/assets/70725029/f015db5b-eebb-46a1-b312-f9a0eaa3dbf9)
-![image](https://github.com/lemben01/converto/assets/70725029/074fffad-b6c7-4539-aa88-91afb6873b44)
-
+![image](https://github.com/fouki49/Converto/assets/67130095/9f1c9c4e-d78d-4bdc-a317-913a2d6cc038)
+![image](https://github.com/fouki49/Converto/assets/67130095/810b6407-dbf5-403e-8308-144211a2fa05)
 
 Pour le deuxième onglet, un convertisseur pour le poids d'une valeur entré vers une sortie désiré
 
-![image](https://github.com/lemben01/converto/assets/70725029/e43aa6de-5e2c-447f-af0a-c2cce755874c)
-![image](https://github.com/lemben01/converto/assets/70725029/465ce09f-3ca9-4292-bf86-a95fe241f192)
+![image](https://github.com/fouki49/Converto/assets/67130095/ecc3b2e6-35d8-478b-88c5-f16d48199907)
+![image](https://github.com/fouki49/Converto/assets/67130095/2d7b1ce6-cce5-4c04-958a-e80e4bed1663)
 
 Même principe pour le troixième onglet pour les températures
 
-![image](https://github.com/lemben01/converto/assets/70725029/8db31933-00a1-4fd2-a52a-b34b458f5ef4)
+![image](https://github.com/fouki49/Converto/assets/67130095/e7cea0f0-be2b-4754-b2e3-8a3767866582)
 
 Finalement dernière fonctionnalitée du programme : convertir la monaie canadienne selon l'augmentation de la valeur avec les années
 
-![image](https://github.com/lemben01/converto/assets/70725029/463a9d2c-d10d-4657-992e-9149b6ec5c4a)
+![image](https://github.com/fouki49/Converto/assets/67130095/863c34a3-2f0e-4df0-8da8-0c2b2ba8c2b6)
+
 
 
 
