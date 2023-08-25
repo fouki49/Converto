@@ -1,0 +1,65 @@
+.contenue {
+    border-radius: 20px;
+}
+
+.presentation {
+    background-color: #556B2F;
+    color: white;
+}
+
+.background {
+    background-color: #342628;
+}
+
+.boutonBackground {
+    background-color: #6B8E23;
+    padding: 5px;
+    border: #342628;
+    border-style: dotted;
+}
+
+.bouton {
+    background-color: #342628;
+    margin-right: 5px;
+    color: #f7f4ef;
+    border-color: #f7f4ef;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.dimensions {
+    background-color: #98FB98;
+}
+
+.imageDim {
+    width: 45px;
+    height: 45px;
+}
+
+.imageTem {
+    height: 50px;
+}
+
+.imageMon {
+    width: 45px;
+    height: 50px;
+}
+
+.texteDonnee {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.lstBox {
+    height: 28px;
+}
+
+.lstDimension {
+    width: 20px;
+    height: 28px;
+}
+
+.blocDonnee {
+    height: 47px;
+}

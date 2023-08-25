@@ -1,0 +1,52 @@
+<div class="row">
+    <img class="imagePoi col-1" src="assets/images/poids.png" alt="">
+    <h3 class="col-4 mt-2">Poids</h3>
+    <div class="blocDonnee">
+        <article class="texteDonnee row mt-2 ">
+            <!-- Entrée -->
+            <p class="col-1">Entrée</p>
+            <select [(ngModel)]="Entree" (ngModelChange)="changementEntree()" class="lstBox col-2">
+                <option>g</option>
+                <option selected>kg</option>
+                <option>tonne mét</option>
+                <option>once</option>
+                <option>livre</option>
+                <option>tonne courte</option>
+            </select>
+
+            <!-- separateur -->
+            <p class="col-1"></p>
+
+            <!-- Sortie -->
+            <p class="col-1 ">Sortie</p>
+            <select [(ngModel)]="Sortie" (ngModelChange)="changementSortie()" class="lstBox col-2">
+                <option>g</option>
+                <option>kg</option>
+                <option>tonne mét</option>
+                <option>once</option>
+                <option selected>livre</option>
+                <option>tonne courte</option>
+            </select>
+
+            <!-- separateur -->
+            <p class="col-2"></p>
+
+            <!-- Précision -->
+            <p style="width: 100px;">Précision</p>
+            <select [(ngModel)]="Precision" (ngModelChange)="changementPrecision()" class="lstBox" style="width:57px;">
+                <option>0</option>
+                <option>1</option>
+                <option selected>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </article>
+    </div>
+    <hr style="border: 2px solid #556B2F;">
+
+    <div class="texteDonnee m-2">
+        <input [(ngModel)]="Nombre" (ngModelChange)="changementNombre()" type="number" style="width: 200px;" name="texte"> 
+        <label style="margin-left: 20px;">{{Entree}} = {{Resultat}} {{Sortie}}</label>
+     </div>
+</div>

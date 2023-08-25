@@ -1,0 +1,32 @@
+<div class="contenue row col-6 position-relative top-0 start-50 translate-middle-x mt-5">
+
+  <article class="presentation ">
+    <h1 class="">Converto</h1>
+    <p>par Benjamin Lemire</p>
+  </article>
+
+  <article class="boutonBackground">
+    <button (click)="ouvrirDimensions()" class="bouton">Dimensions</button>
+    <button (click)="ouvrirPoids()" class="bouton">Poids</button>
+    <button (click)="ouvrirTemperature()" class="bouton">Température</button>
+    <button (click)="ouvrirMonnaie()" class="bouton">Monnaie</button>
+  </article>
+
+  <article class="dimensions">
+  <app-dimensions *ngIf="DimVisible">
+
+  </app-dimensions>
+
+  <app-poids *ngIf="PoiVisible">
+
+  </app-poids>
+
+  <app-temperatures *ngIf="TemVisible">
+
+  </app-temperatures >
+
+  <app-monnaie *ngIf="MonVisible">
+
+  </app-monnaie>
+</article>
+</div>
